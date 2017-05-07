@@ -1,0 +1,2 @@
+# MessagingFront
+Messaging Front application
