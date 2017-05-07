@@ -38,3 +38,7 @@
 .container .text-muted {
   margin: 20px 0;
 }
+
+.active {
+  font-weight: bold;
+}
