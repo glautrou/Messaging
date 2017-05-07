@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
 
 class App extends Component {
   render() {
@@ -27,10 +28,7 @@ class App extends Component {
       </nav>
 
       <div id="page" className="container">
-        <div className="page-header">
-          <h1>Main page</h1>
-        </div>
-        <p>Content of the main page.</p>
+        <Home />
       </div>
 
       <footer className="footer">
