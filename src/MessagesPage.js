@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MessageList from './MessageList';
 
 class MessagesPage extends Component {
   render() {
@@ -7,7 +8,7 @@ class MessagesPage extends Component {
         <div className="page-header">
           <h1>Messages</h1>
         </div>
-        <p>Content of the messages page.</p>
+        <MessageList />
       </div>
     );
   }
