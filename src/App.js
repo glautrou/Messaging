@@ -9,6 +9,8 @@ import {
   IndexLink,
   NavLink
 } from 'react-router-dom';
+import AppHeader from './AppHeader';
+import AppFooter from './AppFooter';
 import Home from './Home';
 import About from './About';
 
@@ -17,25 +19,9 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <nav className="navbar navbar-default navbar-fixed-top">
-            <div className="container">
-              <div className="navbar-header">
-                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span className="sr-only">Toggle navigation</span>
-                  <span className="icon-bar"></span>
-                  <span className="icon-bar"></span>
-                  <span className="icon-bar"></span>
-                </button>
-                <Link to="/" className="navbar-brand">Messaging</Link>
-              </div>
-              <div id="navbar" className="collapse navbar-collapse">
-                <ul className="nav navbar-nav">
-                  <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-                  <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          <header>
+            <AppHeader />
+          </header>
 
           <div id="page" className="container">
             <Route exact path="/" component={Home}/>
@@ -43,9 +29,7 @@ class App extends Component {
           </div>
 
           <footer className="footer">
-            <div className="container">
-              <p className="text-muted">Copyright</p>
-            </div>
+            <AppFooter />
           </footer>
         </div>
       </Router>
