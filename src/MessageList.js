@@ -17,6 +17,18 @@ class MessageList extends Component {
             </thead>
             <tbody>
               <tr>
+                <td>3</td>
+                <td>Date...</td>
+                <td>Recipient...</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Date...</td>
+                <td>Recipient...</td>
+                <td></td>
+              </tr>
+              <tr>
                 <td>1</td>
                 <td>Date...</td>
                 <td>Recipient...</td>
