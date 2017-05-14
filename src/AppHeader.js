@@ -23,6 +23,7 @@ class AppHeader extends Component {
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
               <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+              <li><NavLink to="/messages" activeClassName="active">Messages</NavLink></li>
               <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
             </ul>
           </div>
