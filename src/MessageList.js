@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import MessageListItem from './MessageListItem';
 
 class MessageList extends Component {
   render() {
-    console.log(this.props.messages);
     return (
       <div>
         <div className="panel panel-default">
@@ -20,7 +20,7 @@ class MessageList extends Component {
             <tbody>
             {
               this.props.messages.map((message, i) => {
-                return <tr><td>{message.id}</td><td>{message.date}</td><td>{message.recipient}</td><td>{message.subject}</td><td></td></tr>;
+                return <MessageListItem key={i} message={message} />;
               })
             }
             </tbody>
