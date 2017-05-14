@@ -12,6 +12,7 @@ import {
 import AppHeader from './AppHeader';
 import AppFooter from './AppFooter';
 import Home from './Home';
+import MessagesPage from './MessagesPage';
 import About from './About';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
 
           <div id="page" className="container">
             <Route exact path="/" component={Home}/>
+            <Route exact path="/messages" component={MessagesPage}/>
             <Route path="/about" component={About}/>
           </div>
 
