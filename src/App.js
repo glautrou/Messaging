@@ -9,11 +9,11 @@ import {
   IndexLink,
   NavLink
 } from 'react-router-dom';
-import AppHeader from './AppHeader';
-import AppFooter from './AppFooter';
-import Home from './Home';
-import MessagesPage from './MessagesPage';
-import About from './About';
+import AppHeader from './components/AppHeader';
+import AppFooter from './components/AppFooter';
+import Home from './components/Home';
+import MessagesPage from './components/MessagesPage';
+import About from './components/About';
 
 class App extends Component {
   render() {
