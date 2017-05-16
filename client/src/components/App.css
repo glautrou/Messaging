@@ -34,3 +34,11 @@
   height: 60px;
   background-color: #f5f5f5;
 }
+
+.active {
+  font-weight: bold;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
